@@ -27,6 +27,4 @@ function draw(){
     ellipse.display();
     iron.display();
 
-    
- 
 }  
