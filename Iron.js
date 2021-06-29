@@ -5,7 +5,7 @@ class Iron {
 'friction':3,
 'density':30
  }
- this.body = bodies.rectangle(x,y,20,height,options);
+ this.body = Bodies.rectangle(x,y,20,height,options);
  this.width=20;
  this.height=height;
  Matter.Body.setAngle(this.body,angle);
@@ -17,7 +17,7 @@ display(){
     push();
     translate(pos.x,pos.y);
     rectMode(CENTER);
-    srokeWeight(4);
+    strokeWeight(4);
     stroke("green")
     fill(250);
     rect(0,0,this.width,this.height);

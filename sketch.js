@@ -13,8 +13,9 @@ function setup(){
 
     plane = new Plane(600,height,1200,20)
     hammer = new Hammer(10,100);
-    stone = new Stone(600, 100, 70, 70);
-    iron=new Iron(80,100,1200,20)
+    stone = new Stone(700, 320, 100, 100);
+    iron=new Iron(300,350)
+    rubber=new Rubber(900,450,70)
 }
 
 function draw(){
@@ -24,7 +25,8 @@ function draw(){
 
     plane.display();
     hammer.display();
-    ellipse.display();
     iron.display();
+    stone.display();
+    rubber.display();
 
 }  
